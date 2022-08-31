@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-currency-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple react-native currency input",
   "main": "src/InputCurrency.tsx",
   "scripts": {

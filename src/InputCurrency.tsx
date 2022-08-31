@@ -7,7 +7,7 @@ import {
     Dimensions,
     StyleSheet,
 } from 'react-native';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { currencyCodesList } from './utils/currencyCodesList';
 import InputCurrencyProps from './InputCurrencyProps';
 import {colors} from "./utils/colors";
@@ -37,7 +37,7 @@ const CurrencyButton = ({
     </TouchableOpacity>
 );
 
-const InputCurrency = ({
+export default React.forwardRef<InputCurrencyProps>(({
      currency,
      onChangeCurrency,
      value,
@@ -110,7 +110,7 @@ const InputCurrency = ({
         )}
       </View>
     );
-};
+});
 
 const styles = StyleSheet.create({
   container: {
@@ -170,5 +170,3 @@ const currencyInputStyle = textAlign =>
     paddingTop: 5,
     paddingBottom: 5,
   });
-
-export default InputCurrency;
