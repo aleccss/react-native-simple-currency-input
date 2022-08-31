@@ -1,0 +1,28 @@
+{
+  "name": "react-native-simple-currency-input",
+  "version": "1.0.0",
+  "description": "Simple react-native currency input",
+  "main": "src/InputCurrency.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleccss/react-native-simple-currency-input.git"
+  },
+  "keywords": [
+    "react-native",
+    "currency",
+    "input"
+  ],
+  "author": "Alex Dragnea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleccss/react-native-simple-currency-input/issues"
+  },
+  "homepage": "https://github.com/aleccss/react-native-simple-currency-input#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.69.5"
+  }
+}
